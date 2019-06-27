@@ -14,6 +14,6 @@ public class Camion extends Véhicule{
 	@Override
 	void accelerer() {
 		// TODO Auto-generated method stub
-		System.out.println("J'accélère");
+		System.out.println("J'accélère mais pas trop vite");
 	}
 }
