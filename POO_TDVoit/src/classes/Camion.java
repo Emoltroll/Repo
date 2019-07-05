@@ -1,3 +1,4 @@
+package classes;
 
 public class Camion extends Véhicule{
 	
@@ -5,13 +6,11 @@ public class Camion extends Véhicule{
 		super(annee, prix);
 	}
 
-	@Override
 	void demarrer() {
 		// TODO Auto-generated method stub
 		System.out.println("Je démarre");
 	}
 
-	@Override
 	void accelerer() {
 		// TODO Auto-generated method stub
 		System.out.println("J'accélère mais pas trop vite");

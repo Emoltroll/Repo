@@ -1,3 +1,4 @@
+package classes;
 // classe mère abstract
 abstract class Véhicule {
 	

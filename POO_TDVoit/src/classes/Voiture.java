@@ -1,3 +1,4 @@
+package classes;
 
 public class Voiture extends Véhicule{
 	
@@ -6,11 +7,11 @@ public class Voiture extends Véhicule{
 	}
 	
 	// fonctions passés par la classe mère
-	void demarrer() {
+	public void demarrer() {
 		System.out.println("Je démarre");
 	}
 	
-	void accelerer() {
+	public void accelerer() {
 		System.out.println("J'accélère");
 	}
 	
